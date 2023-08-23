@@ -1,0 +1,62 @@
+h2 {
+  position: relative;
+  top: 6rem;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  position: relative;
+  top: 10rem;
+}
+
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* overflow: hidden; */
+  /* display: flex;
+  align-items: center; */
+}
+
+.Wrapper {
+  display: flex; /* Display images side by side */
+  position: relative;
+  top: 8rem;
+  transition: transform 0.5s ease; /* Animation transition */
+  gap: 0.4rem;
+}
+
+.hotelPh {
+  width: auto;
+  height: 20rem;
+  border-radius: 10px;
+  /* object-fit: cover; */
+  /* display: flex;
+  gap: 1rem; */
+}
+/* 
+.hotelPh {
+  width: 50%;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+} */
+
+/* Additional styling for optional navigation buttons */
+.carouselNav {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: 8rem;
+  margin-top: 10px;
+}
+
+.carouselNav button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 28px;
+  margin: 0 10px;
+}

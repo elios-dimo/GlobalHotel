@@ -1,0 +1,63 @@
+.date_modal {
+  position: relative;
+  height: 8rem;
+  width: 35rem;
+  background-color: white;
+  right: 2rem;
+  top: -2.3rem;
+  border-radius: 10px;
+  border: solid 2px var(--primary-color-1);
+  z-index: 4;
+}
+
+.date_container {
+  position: relative;
+  left: 8.6rem;
+  display: flex;
+}
+
+.date_container label {
+  display: block;
+  font-weight: 500;
+  margin-left: 1.6rem;
+}
+
+.date_container input {
+  padding: 0.4rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  outline: none !important;
+}
+
+.close {
+  position: relative;
+  font-size: 1.6rem;
+  color: var(--primary-color-1);
+  cursor: pointer;
+  top: -0.6rem;
+  right: 0.6rem;
+  background-color: var(--bg-color-1);
+  height: 1.6rem;
+  width: 1.6rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.done {
+  position: relative;
+  left: 28rem;
+  bottom: 2.1rem;
+  padding: 0.4rem;
+  cursor: pointer;
+  font-weight: 500;
+  background-color: var(--primary-color-1);
+  color: var(--text-color-2);
+  border: none;
+  font-size: 1rem;
+}
+
+.done:hover {
+  background-color: var(--primary-color-3);
+}

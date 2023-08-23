@@ -1,0 +1,76 @@
+/* input and search button container */
+.search_container {
+  height: 20vh;
+  width: 100%;
+  padding-top: 12rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.search_title {
+  position: relative;
+  top: -6rem;
+}
+
+.input_container {
+  position: relative;
+  display: flex;
+  gap: 0.2rem;
+  margin-left: 3.4rem;
+  margin-top: -4rem;
+}
+
+/* inputs */
+.input_container input {
+  width: 10.4rem;
+  padding: 0.4rem;
+  padding-left: 1.2rem;
+  font-size: 1rem;
+  caret-color: transparent;
+}
+
+.destination,
+.date,
+.people {
+  cursor: pointer;
+  outline: none;
+}
+
+/* search button */
+.search_but {
+  padding: 0.4rem;
+  font-weight: 500;
+  background-color: var(--primary-color-1);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: var(--text-color-2);
+}
+
+.search_but:hover {
+  background-color: var(--primary-color-3);
+}
+
+/* input icons */
+.dest_icon {
+  position: absolute;
+  font-size: 1.2rem;
+  top: 0.38rem;
+  left: 0.2rem;
+}
+
+.date_icon {
+  position: absolute;
+  font-size: 1.1rem;
+  top: 0.48rem;
+  left: 10.8rem;
+}
+
+.ppl_icon {
+  position: absolute;
+  font-size: 1.1rem;
+  top: 0.48rem;
+  left: 21.4rem;
+}

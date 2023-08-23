@@ -1,0 +1,48 @@
+.nav {
+  position: fixed;
+  background: var(--bg-color-1);
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 2px var(--primary-color-1);
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.logo {
+  margin-left: 2rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.logo span {
+  color: var(--primary-color-1);
+}
+
+.sections {
+  display: flex;
+  margin-right: 2rem;
+}
+
+.section {
+  list-style: none;
+  margin-right: 2rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.section a {
+  text-decoration: none;
+  padding: 0.2rem;
+  border-radius: 0.4rem;
+}
+
+.section a:hover {
+  background-color: var(--primary-color-1);
+  color: var(--text-color-2);
+}

@@ -1,0 +1,29 @@
+.description {
+  position: relative;
+  top: 10rem;
+  left: 35rem;
+  width: 50rem; /* Set your desired width */
+  /* overflow: hidden;
+  white-space: nowrap; */
+  text-overflow: ellipsis;
+}
+
+.desc {
+  border: solid 2px var(--primary-color-1);
+  border-radius: 10px;
+  padding: 0.8rem;
+  margin-top: 1rem;
+}
+
+.back {
+  padding: 0.4rem;
+  font-weight: 500;
+  background-color: var(--primary-color-1);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: var(--text-color-2);
+  position: relative;
+  top: 14rem;
+  left: 58rem;
+}
