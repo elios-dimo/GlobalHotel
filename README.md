@@ -14,7 +14,7 @@ The project was built in React js making use of html,css and javascript knowledg
 
 # What I learned and practiced 
 - React js components, props
-- Async functions (API fecthing)
+- Async functions (API fetching)
 - Redux toolkit (including useSelector and useDispatch)
 - useContext
 - useState, useEffect, useParams
