@@ -2,6 +2,7 @@
 A hotel search that gives you hotel options depending on destination, dates and number of people visiting. Upon clicking on hotel you can see the hotel photos and description. I used booking API. Keep in mind my that since I use free version the is a limit in API calls every month. 
 
 Steps to get your own api key and maximize API calls every month:
+- Register at https://rapidapi.com/
 - Subscribe for free to booking api https://rapidapi.com/apidojo/api/booking/pricing.
 - Find your key at https://rapidapi.com/apidojo/api/booking.
 - Replace the keys in the search folder at DestModal.jsx, HotelDescription.jsx and ListProperties.jsx files.
