@@ -1,5 +1,5 @@
 # GlobalHotel
-A hotel search that gives you hotel options depending on destination, dates and number of people visiting. Upon clicking on hotel you can see the hotel photos and description. I used booking API. Keep in mind  that since I use free version there is a limit in API calls every month. 
+A hotel search that gives you hotel options and prices depending on destination, dates and number of people visiting. Upon clicking on hotel you can see the hotel photos and description. I used booking API. Keep in mind  that since I use free version there is a limit in API calls every month. 
 
 Steps to get your own api key and maximize API calls every month:
 - Register at https://rapidapi.com/
